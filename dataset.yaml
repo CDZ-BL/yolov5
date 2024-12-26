@@ -1,0 +1,5 @@
+train: dataset/train/images  # Path to the training images
+val: dataset/val/images      # Path to the validation images
+
+nc: 1                        # Number of classes (update this if you have more classes)
+names: ['object_name']        # Replace 'object_name' with the name of your class
